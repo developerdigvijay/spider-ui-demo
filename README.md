@@ -77,10 +77,3 @@ No license is included by default. If you plan to reuse or distribute this proje
 ## Author
 
 Created by DeveloperDigvijay — https://github.com/developerdigvijay
-
----
-
-Want me to also:
-- Add badges (license, preview) and a short blurb for social links? ✅
-- Create a recruiter-friendly one-page README variant? ✅
-- Add screenshot thumbnails and an example GitHub Pages workflow? ✅
