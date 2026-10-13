@@ -1,99 +1,86 @@
-# Spider UI Demo
+# Spider UI — Portfolio Demo
 
-A dark-themed, animated frontend portfolio landing page inspired by a futuristic Spider-man / symbiote aesthetic. This project is a static HTML/CSS/JavaScript site designed to showcase a developer portfolio with cinematic visuals, motion effects, and responsive layout.
+A cinematic, dark-mode developer portfolio built with plain HTML, CSS and JavaScript. This single-page demo focuses on motion, depth, and a bold visual identity — ideal as a portfolio landing page or frontend design prototype.
 
-## Overview
+<p align="center">
+  <img src="dark-spider.jpg" alt="Spider UI Demo preview" width="1000" />
+</p>
 
-This repository contains a single-page portfolio demo built using plain HTML, CSS, and JavaScript. It includes:
+## Quick overview
 
-- Animated loader and hero section
-- Custom cursor effects
-- Scroll reveal animations using Intersection Observer
-- Responsive mobile navigation
-- Glitch-style typography and dark UI visual design
-- Skills, project, and contact sections
+Spider UI is a lightweight, static portfolio concept that showcases:
+- Immersive hero with animated loader
+- Glitch-inspired headline and visual micro-interactions
+- Custom cursor and hover effects
+- Smooth reveal-on-scroll animations (Intersection Observer)
+- Responsive navigation and layout for mobile
 
-## Live Demo
+This repository is intentionally dependency-free so you can open and preview directly in a browser.
 
-Open `index.html` directly in the browser, or serve the project locally for best results.
+## Live preview
 
-## Tech Stack
+Open `index.html` in your browser or serve the folder with a static server for the best experience.
+
+## Tech
 
 - HTML5
-- CSS3
-- JavaScript
+- CSS3 (flexbox/grid + animations)
+- Vanilla JavaScript
 - Font Awesome icons
 - Google Fonts
 
-## Project Structure
+## Files
 
-```bash
-.
-├── index.html          # Main page structure
-├── style.css           # UI styling and animations
-├── script.js           # Interaction logic and animations
-├── dark-spider.jpg     # Hero background image
+```
+spider-ui-demo/
+├── index.html          # Single-page markup
+├── style.css           # All styles and visual system
+├── script.js           # Interactions and animations
+├── dark-spider.jpg     # Hero / preview image
 ├── red-spider.jpg      # Alternate visual asset
-├── README.md           # Project documentation
 ├── google374dad2626631ba2.html
 ├── .gitattributes
-└── LICENSE             # if added later
+└── README.md
 ```
 
-## Getting Started
+## Run locally
 
-### Option 1: Open directly
+Option A — Open directly
+1. Clone or download this repository.
+2. Double-click `index.html` or open it from your browser's File → Open.
 
-1. Download or clone the repository.
-2. Open `index.html` in your browser.
-
-### Option 2: Run a local web server
-
-From the project root:
+Option B — Quick static server (recommended)
 
 ```bash
+# Using Python 3
 python -m http.server 8000
+# then open http://localhost:8000
 ```
 
-Then open:
+## Customize for your portfolio
 
-```bash
-http://localhost:8000
-```
+- Replace hero text and `title`/`meta` in `index.html` with your name and tagline.
+- Replace project placeholders with your live demos and repository links.
+- Update contact/social links in the Contact section (GitHub, LinkedIn, Twitter or email).
+- Tweak colors, typography and spacing in `style.css` to match your brand.
+- Adjust animation timing in `script.js` for a faster or slower feel.
 
-## Features
+## Accessibility & notes
 
-- Responsive layout for desktop and mobile
-- Loader animation on page load
-- Glitch text effect on heading
-- Smooth scroll and section reveal transitions
-- Interactive hamburger menu for smaller screens
-- Portfolio-style cards for skills and projects
-- Modern dark-mode visual identity
-
-## Customization
-
-You can personalize the site by editing:
-
-- `index.html` for text content, navigation items, and section structure
-- `style.css` for color palette, layout, and effects
-- `script.js` for animation timing and interactivity
-
-Examples:
-
-- Update the developer name and title in the hero section
-- Replace placeholder project cards with your real work
-- Add your GitHub, LinkedIn, and email links in the contact section
-- Customize the accent colors in the CSS variables and classes
-
-## Notes
-
-This project is a frontend UI demo and does not include backend services or real user data collection. It is suitable as a starter portfolio page or concept design.
+- This is a visual demo — test contrast and keyboard navigation if you adapt it for production.
+- No user data is collected. The project contains only frontend assets and no server-side code.
 
 ## License
 
-This project does not currently include an explicit license file. If you plan to use it publicly or commercially, consider adding an appropriate Open Source license.
+No license is included by default. If you plan to reuse or distribute this project, add an open-source license (for example MIT) to the repository.
 
 ## Author
 
-Built by DeveloperDigvijay.
+Created by DeveloperDigvijay — https://github.com/developerdigvijay
+
+---
+
+Want me to also:
+- Add badges (license, preview) and a short blurb for social links? ✅
+- Create a recruiter-friendly one-page README variant? ✅
+- Add screenshot thumbnails and an example GitHub Pages workflow? ✅
